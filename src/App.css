@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.containerPadding{
+  padding-left: 80px;
+  padding-right: 80px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  border-bottom: 2px solid #aeadad7a;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-item{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.signInButton{
+  background: #31A867;
+  font-family: Gilroy, sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link{
+  color: #262525!important;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  padding: 10px 25px!important;
+}
+.banner{
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+.bannerTitle{
+  color: #252F37;
+  font-size: 86px;
+  font-family: Gilroy, sans-serif;
+} 
+.bannerSubTitle{
+  color: #252F37;
+  font-size: 28px;
+  font-family: Gilroy, sans-serif;
+}
+.free-demo-btn{
+  height: 85px;
+  font-size: 28px;
+  padding: 10px 20px !important;
 }
