@@ -14,7 +14,7 @@
   font-family: Gilroy, sans-serif;
 }
 .nav-link{
-  color: #262525!important;
+  color: #262525 !important;
   font-size: 20px;
   font-family: Roboto, sans-serif;
   padding: 10px 25px!important;
@@ -37,4 +37,23 @@
   height: 85px;
   font-size: 28px;
   padding: 10px 20px !important;
+}
+.btn-free-contact{
+  border: 1px solid green !important;
+  color: white !important;
+  border-style: none;
+  height: 85px;
+  width: 40%;
+  font-size: 20px;
+  /* padding: 10px 20px !important; */
+}
+.btn-free{
+  background-color: green;
+  border-style: none;
+  color: white;
+  width: 60%;
+  height: 85px;
+  font-size: 20px;
+  /* padding: 10px 20px !important; */
+
 }
